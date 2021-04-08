@@ -25,28 +25,20 @@ varchar(20), products_value varchar(20));`
 Para ingresar una transacción con id 1231, cédula de ciudadanía 12345, con la dirección
 carrera 96 #56-123 y valor de productos $50000, se realiza la siguiente petición:
 
-url - http://localhost:9090/addTransaction
+**url** - http://localhost:9090/addTransaction
 
-method - POST
+**Method** - POST
 
-input - 
-
+**input** -
 {
-
   "id":1231,
-
   "client_identification":12345,
-
   "client_direction":"carrera 96 #56-123",
-
   "products_value":50000
-
 }
 
-output -
-
+**output** -
 {
-
   "id":1231,
 
   "client_identification":12345,
@@ -54,7 +46,6 @@ output -
   "client_direction":"carrera 96 #56-123",
 
   "products_value":50000
-
 }
 
 Para la operation PUT se debe especificar los nuevos datos y para la operación DELETE no se debe enviar datos.
