@@ -40,11 +40,8 @@ carrera 96 #56-123 y valor de productos $50000, se realiza la siguiente petició
 **output** -
 {
   "id":1231,
-
   "client_identification":12345,
-
   "client_direction":"carrera 96 #56-123",
-
   "products_value":50000
 }
 
